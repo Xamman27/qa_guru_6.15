@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+addopts="-l -v --durations=10"
+markers=[
+    "fast: Маркируем тесты длящиеся менее пяти секунд",
+    "slow: Тесты, которые длятся больше пяти секунд"
+]
